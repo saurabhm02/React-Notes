@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React </title>
+</head>
+<body>
+    <div id="root">
+        <!-- <h1>Namaste React</h1>  ==>create h1 tag by using html -->
+    </div>
+
+<!--Create h1 tag by using JavaScript-->  
+<!-- <script>
+    const heading = document.createElement("h1");
+
+    heading.innerHTML = "Namaste React";
+
+    const root = document.getElementById("root");
+
+    root.appendChild(heading);
+</script> -->
+
+<!--CDN Links for react-->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+   <!--Create hi tag by using ReactJs--> 
+   <!-- <script>
+    const heading = React.createElement("h1", {}, "Namaste React from react");
+    const root  = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(heading);  
+   </script> -->
+
+   <!----------------------------------Home Work---------------------------------------------------->
+   <!-- create = 
+    <div id="container"> 
+    <h1 id="h1">Namaste React</h1>
+    <h2 id="h2">Namaste react with Me</h2>
+   </div> 
+    by  using React-->
+
+   <script>
+    const heading1 = React.createElement("h1", {id:"h1"}, "Namaste React");
+    const heading2 = React.createElement("h2", {id:"h2"}, "Namaste react with Me");
+
+    const container = React.createElement("div", {id: "container"}, [heading1, heading2]);
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(container);
+   </script>
+
+   </body>
+</html>
