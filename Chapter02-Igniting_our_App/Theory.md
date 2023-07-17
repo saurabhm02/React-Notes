@@ -191,5 +191,15 @@ In web development, the `/dist` folder typically contains the minified JavaScrip
  ```js
  > 0.25%, last 2 versions
  ```
+----
+### Que. What is Transitive Dependency
+* A transitiv dependency in React is a dependency of a package that you depend on.
+* For example, if our React application depends on the `react-router` package, then
+`react-router` depends on the `react-dom`
+package. This means that the
+`react-dom`package is a transitive dependency of our React application, even though we didn't explicitly list it in our
+`package.json`file.
 
-
+* Transitive dependencies can be a bit tricky to manage, because they can introduce security vulnerabilities or compatibility issues into our application. 
+* For example, if the `react-dom` package has a security vulnerability, then our React application will be vulnerable to attack even if we haven't updated the
+`react-dom`package ourself.
