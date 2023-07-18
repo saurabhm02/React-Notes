@@ -16,3 +16,10 @@
 - 📘 [_Theory_](./Chapter02-Igniting_our_App/Theory.md)
 - 📝[_ Notes _](./Chapter02-Igniting_our_App/Notes.md) 
 - 👨‍💻 [_Code_](./Chapter02-Igniting_our_App/Codes)
+
+----
+## 📚 [_Chapter 03 - Laying the Foundation_](./Chapter03-Laying_the_foundation/) First step in creating a React app
+- 📘 [_Theory_](./Chapter03-Laying_the_foundation/Theory.md)
+- 📝[_ Notes _](./Chapter03-Laying_the_foundation/Notes.md) 
+- 👨‍💻 [_Code_](./Chapter03-Laying_the_foundation/Codes)
+
