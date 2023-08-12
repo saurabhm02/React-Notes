@@ -1,13 +1,15 @@
 ## #3 Session of Namaste React Course:
 
-### Topics Coverd in this Session:
 
+<h1 align="center">Topics Coverd in this Session:</h1>
+```
 - Creating our first app
 - React Fragment
 - props
 - Config driven UI
 - Virtual DOM
 - React reconciliation
+```
 ---
 
 ### _Theory Assignments_ 
