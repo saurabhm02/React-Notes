@@ -3,33 +3,22 @@
 
 
 
-###### Que. Is `JSX` mandatory for React?
-<details><summary><b>Answer</b></summary>
-<p>
+### Que. Is `JSX` mandatory for React?
 
 #### Answer: No
 
 JSX is not mandatory for React. It is a JavaScript syntax extension that makes it easier to write React components. However, it is not required to use React. You can write React components using plain JavaScript, without JSX.
 
-
-</p>
-</details>
-
-###### Que. Is `ES6` mandatory for React?
-<details><summary><b>Answer</b></summary>
-<p>
+---
+### Que. Is `ES6` mandatory for React?
 
 #### Answer: No
 
  ES6 is not mandatory for React. However, it is strongly recommended to use ES6 when developing React applications. ES6 provides a number of features that can make React code more concise, readable, and maintainable. For example, ES6 arrow functions, class properties, and modules can all be used to improve the readability and maintainability of React code.
+ 
+---
 
-
-</p>
-</details>
-
-###### Que. Is `TypeScript` mandatory for React?
-<details><summary><b>Answer</b></summary>
-<p>
+### Que. Is `TypeScript` mandatory for React?
 
 #### Answer: No
 
@@ -38,12 +27,9 @@ JSX is not mandatory for React. It is a JavaScript syntax extension that makes i
  	* IntelliSense
  	* Documentation
 
-</p>
-</details>
+---
 
-###### Que. `{TitleComponent}` vs `{<TitleComponent/>}` vs `{<TitleComponent></TitleComponent>}` in `JSX`.
-<details><summary><b>Answer</b></summary>
-<p>
+### Que. `{TitleComponent}` vs `{<TitleComponent/>}` vs `{<TitleComponent></TitleComponent>}` in `JSX`.
 
 - `{TitleComponent}`: This value describes the `TitleComponent` as a javascript expression or a variable or React element. 
 The `{}` can embed a javascript expression or a variable or React element inside it.
@@ -58,12 +44,9 @@ The `{}` can embed a javascript expression or a variable or React element inside
     <ThirdChildComponent />
 </TitleComponent>
 ```
-</p>
-</details>
+---
 
-###### Que.  How can I write `comments` in JSX?
-<details><summary><b>Answer</b></summary>
-<p>
+### Que.  How can I write `comments` in JSX?
 
 JSX comments are written as follows:
 - `{/*  */}` - for single or multiline comments
@@ -78,12 +61,8 @@ JSX comments are written as follows:
   comment
 */}  
 ```
-</p>
-</details>
-
-###### Que. What is `<React.Fragment></React.Fragment>` and `<></>`?
-<details><summary><b>Answer</b></summary>
-<p>
+---
+### Que. What is `<React.Fragment></React.Fragment>` and `<></>`?
 
 → React.Fragment and <> are both syntax for creating a React fragment. A fragment is a special type of component that allows us to return multiple elements from a React component without adding extra nodes to the DOM.
 
@@ -114,13 +93,9 @@ return (
     );
 ```
 
-</p>
-</details>
+---
 
-
-###### Que. What is `Reconciliation` in React?
-<details><summary><b>Answer</b></summary>
-<p>
+### Que. What is `Reconciliation` in React?
 
 * The reconciliation algorithm is designed to be efficient, so that React can update the UI quickly without having to re-render the entire DOM. The virtual DOM allows React to make changes to the UI without affecting the actual DOM until the very end. This can save a lot of time and resources, especially in large applications with complex UIs.
 * The reconciliation algorithm works as follows:
@@ -132,13 +107,9 @@ return (
 	→ React compares the updated virtual DOM to the actual DOM.
 	→ React updates the actual DOM to reflect the changes in the virtual DOM.
 
-</p>
-</details>
+---
 
-
-###### Que. What is `React Fiber`?
-<details><summary><b>Answer</b></summary>
-<p>
+### Que. What is `React Fiber`?
 
 * React Fiber is a concept of ReactJS that is used to render a system faster, smoother and smarter.
 * The Fiber reconciler, which became the default reconciler for React 16 and above, is a complete rewrite of React’s reconciliation algorithm to solve some long-standing issues in React.
@@ -147,14 +118,9 @@ return (
 	→ Reuse previously completed work and even abort it if not needed
 	→ Split work into chunks and prioritize tasks based on importance
 
+---
 
-</p>
-</details>
-
-
-###### Que.  Why do we need `keys` in React?
-<details><summary><b>Answer</b></summary>
-<p>
+### Que.  Why do we need `keys` in React?
 
 We need `Keys` are used in React to identify which items in the list are changed, updated, or deleted. In other words, we can say that keys are unique Identifier used to give an identity to the elements in the lists.
 Keys should be given to the elements within the array to give the elements a stable identity.
@@ -165,24 +131,16 @@ Keys should be given to the elements within the array to give the elements a sta
 <li key={1}>2</li>
 <li key={2}>3</li>
 ```
+---
 
-</p>
-</details>
-
-###### Que. Can we use `index as keys` in React?
-<details><summary><b>Answer</b></summary>
-<p>
+### Que. Can we use `index as keys` in React?
 
 Yes, we can use the `index as keys`, but it is not considered as a good practice to use them because if the order of items may change. This can negatively impact performance and may cause issues with component state.
 Keys are taken from each object which is being rendered. There might be a possibility that if we modify the incoming data react may render them in unusual order.
 
+---
 
-</p>
-</details>
-
-###### Que. What is `props in React`?
-<details><summary><b>Answer</b></summary>
-<p>
+### Que. What is `props in React`?
 
  props stands for properties. Props are arguments passed into React components. props are used in React to pass data from one component to another (from a parent component to a child component(s)). They are useful when you want the flow of data in your app to be dynamic.
 #### Example
@@ -195,15 +153,10 @@ function App() {
   )
 }
 ```
+---
 
 
-</p>
-</details>
-
-
-###### Que. What is `Config Driven UI`?
-<details><summary><b>Answer</b></summary>
-<p>
+### Que. What is `Config Driven UI`?
 
 → Config Driven UI (also known as configuration-driven UI or configuration-based UI)   is a software development approach that uses external configuration data and files to drive the development of the user interface (UI). This approach allows the UI to be easily customized and maintained without the need to modify the underlying codebase.
 
@@ -212,14 +165,9 @@ It is a very common & basic approach to interact with the User. It provides a ge
 
 → A typical login form, common in most of the Apps. Most of these forms also get frequent updates as the requirements increase in terms of Form Validations, dropdown options,.. or design changes.
 
+---
 
-</p>
-</details>
-
-
-###### Que.  Difference between `Virtual DOM` and `Real DOM`?
-<details><summary><b>Answer</b></summary>
-<p>
+### Que.  Difference between `Virtual DOM` and `Real DOM`?
 
 DOM stands for `Document Object Model`, which represents your application UI and whenever the changes are made in the application, this DOM gets updated and the user is able to visualize the changes. DOM is an interface that allows scripts to update the content, style, and structure of the document.
 * `Virtual DOM`
@@ -241,6 +189,3 @@ DOM stands for `Document Object Model`, which represents your application UI and
 | It allows us to directly target any specific node (HTML element) | It can produce about 200,000 Virtual DOM Nodes / Second. |
 | It represents the UI of your application | It is only a virtual representation of the DOM |
 
-
-</p>
-</details>
