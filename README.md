@@ -21,7 +21,7 @@
 ## 📚 [_Chapter 03 - Laying the Foundation_](./Chapter%2003%20-%20Laying%20the%20Foundation/) First step in creating a React app
 - 📘 [_Theory_](./Chapter%2003%20-%20Laying%20the%20Foundatio/Theory.md)
 - 📝[_ Notes _](./Chapter%2003%20-%20Laying%20the%20Foundatio/Notes.md) 
-- 👨‍💻 [_Code_](./Chapter%2003%20-%20Laying%20the%20Foundatio/code)
+- 👨‍💻 [_Code_](./Chapter%2003%20-%20Laying%20the%20Foundatio/Codes)
 
 
 ----
