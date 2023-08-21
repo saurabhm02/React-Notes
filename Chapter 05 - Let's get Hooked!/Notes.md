@@ -123,3 +123,45 @@ Const Body = () => {
 -▷ We've got search input and search button with us. But if I try to write inside my input box, it's not working (because it's controlled by React.)
 
 -▷```[If I write the same code inside my HTML file, it will work.]```
+
+---
+
+<h1 align="center">$\textcolor{red}{\textsf{ONE-WAY DATA BINDING IN REACT}}$ </h1>
+
+```js
+
+const Body = ()={
+  const SearchTxt = "KFC";
+  return(
+    <>
+      <div>
+        <input type="text"
+            placeholder="Search..."
+            value  {SearchTxt}
+        />
+
+      </div>
+    </>
+    );
+};
+
+I have a variable `SearchTxt` and if i put that in `value` , Then the value "KFC"  will go inside my input box.
+```
+-▷ I'm not able to edit the value `"KFC"` because it is a hardcoded value.
+-▷To change the value in the input box, we need to modify the variable `SearchTxt`.
+But, if we write something, it won't change `searchTxt`.
+This is called `One-Way Data binding`.
+
+### Que. How will i change the value of `SearchTxt` ?
+
+* Write an `onChange` method.
+
+```js 
+onChange = {(e)=> onChangeInput}
+```
+Create an `OnChangeInput` function. It takes a function(Which is a callBack fn) which have a `e` event.
+
+So, whenever input is chaned, this function will be called,
+
+
+

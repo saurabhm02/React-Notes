@@ -91,6 +91,13 @@ If the above code give some error then try
 ```js
 > npm install react --registry=https://registry.npmjs.org
 ```
+
+Now we have to install React Dom in our project 
+
+```js
+> npm install react-dom
+```
+
 ### To ignite our app.
 ```js
 > npx parcel index.html
