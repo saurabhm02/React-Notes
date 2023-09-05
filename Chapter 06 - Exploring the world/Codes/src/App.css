@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 1rem;
+}
+.appLayout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+    object-fit: cover;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1400px;
+    height: 80px;
+    padding: 0.5rem;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.header-items{
+    display: flex;
+    gap: 2rem;
+}
+
+.login-btn{
+  padding: 5px;
+  background-color:black;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.7);
+}
+.logout-btn{
+  padding: 5px;
+  background-color:black;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.7);
+}
+/* search container CSS */
+.search-container {
+  margin: 10px auto;
+  text-align: center;
+  max-width: 100%;
+  position: relative;
+}
+
+.search-container .search-input {
+  width: 400px;
+  height: 47px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 14px 15px 14px 20px;
+  border: 1px solid #aabcca;
+  color: #000000;
+  outline: none;
+  font-size: 15;
+  font-weight: 500;
+}
+
+.search-container .search-btn {
+  height: 47px;
+  background-color: #0768b3;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  color: #ffffff;
+  padding: 15px 22px;
+  margin-left: -4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.search-container .search-btn:hover {
+  background-color:darkgreen;
+}
+
+/* error message css */
+.error-container {
+  text-align: center;
+  font-size: large;
+  margin: 20px 0;
+}
+
+/* Restaurant cards CSS */
+.restaurant-list {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+
+  width: 230px;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 15px;
+  box-shadow: -1px 5px 5px 5px rgba(150, 148, 148, 0.2);
+  cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 0.7rem 0.7rem 0.7rem 0.7rem rgb(148, 147, 147);
+}
+.card > img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.card > img:hover{
+    transform: scale(1.13);
+}
+
+
+.card > h5 {
+  font-weight: lighter;
+}
+
+.card > span {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.card > span > h4 {
+  font-weight: bolder;
+  font-size: 12px;
+  padding: 0 2px 0;
+  margin-top: 10px;
+}
+
+.card > span > h4:first-child {
+  display: flex;
+  align-items: center;
+  background-color: var(--light-green);
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+
+.star{
+  font-size: 10px;
+  padding: 0 5px 3px 0;
+}
+
+/* error message css */
+.error-container {
+    text-align: center;
+    font-size: large;
+    margin: 20px 0;
+}
+
+
+/*Shimmer CSS */
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  .shimmer-card {
+    flex-basis: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-color: #d3d5df;
+    box-shadow: 0 4px 7px 0 rgb(218 220 230 / 60%);
+  }
+  .shimmer-title {
+    width: 60%;
+    margin-top: 10px;
+  }
+  .shimmer-tags {
+    width: 80%;
+    margin-top: 4px;
+  }
+  .shimmer-details {
+    width: 100%;
+    margin-top: 18px;
+  }
+  .shimmer-container .shimmer-img {
+    height: 144px;
+    width: 220px;
+  }
+  
+  /*Animation to Shimmer Component Cards */
+  .stroke {
+    height: 15px;
+    background: #777;
+  }
+  .animate {
+    animation: shimmer 3s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(to right, #e6e6e6 5%, #cccccc 25%, #e6e6e6 35%);
+    background-size: 1000px 100%;
+  }
+  @keyframes shimmer {
+    from {
+      background-position: -1000px 0;
+    }
+    to {
+      background-position: 1000px 0;
+    }
+  }
+
+.footer{
+  background-color: aqua;
+  width: 1400px;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  text-align: center;
+  font-size: 30;
+  font-weight: 600;
+}
+
+
+
+/* CSS for mobile devices */
+@media only screen and (max-width: 470px) {
+    .header {
+      height: 60px;
+    }
+    .header .logo {
+      width: 80px;
+    }
+    .nav-items > ul > li {
+      font-size: small;
+    }
+    .nav-items > ul > li .logout-btn,
+    .nav-items > ul > li .login-btn {
+      font-size: xx-small;
+    }
+    .search-container {
+      margin: 80px auto 0px;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    .header {
+      height: 50px;
+    }
+    .header .logo {
+      width: 70px;
+    }
+    .nav-items > ul > li {
+      font-size: x-small;
+    }
+    .nav-items > ul > li .logout-btn,
+    .nav-items > ul > li .login-btn {
+      padding: 5px;
+    }
+    .search-container {
+      margin: 70px auto 0px;
+    }
+  }
