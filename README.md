@@ -31,3 +31,8 @@
 - 👨‍💻 [_Code_](./Chapter%2004%20-%20Talk%20is%20Cheap%2C%20Show%20me%20the%20Code/code)
 
 
+----
+## 📚 [_Chapter 05 - Let's get Hooked!_](./Chapter%2005%20-%20Let's%20get%20Hooked!/) Another step in the Code!
+- 📘 [_Theory_](./Chapter%2005%20-%20Let's%20get%20Hooked!/Theory.md)
+- 📝[_ Notes _](./Chapter%2005%20-%20Let's%20get%20Hooked!/Notes.md) 
+- 👨‍💻 [_Code_](./Chapter%2005%20-%20Let's%20get%20Hooked!/Codes)
